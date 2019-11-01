@@ -11,7 +11,7 @@ Maven >= 3.0 下载地址：(http://maven.apache.org/download.cgi)
 2.  设置Eclipse仓库，菜单Window->Preferences->Maven->User Settings->User Settings 后边的Browse,然后导入自己的Maven目录的conf目录下的settings.xml文件，然后点Apply,在点OK
 3.  导入到Eclipse,菜单file->Import,然后选择Maven->Existing Maven Projects,点击Next>按钮，选择工作目录，然后点击Finish按钮，即可导入成功
 4.	导入数据库,基础表：spider-flow/db/spiderflow.sql
-5.  打开并运行org.spiderflow.SpiderApplication.java
+5.  将sprider-flow-web下的application.properties配置文件中的数据库链接修改成自己实际数据库链接，打开并运行org.spiderflow.SpiderApplication.java
 6.  打开浏览器，输入(http://localhost:8088/)
 
 ### 引入插件
